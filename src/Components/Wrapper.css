@@ -1,0 +1,10 @@
+@import './root.css';
+
+.wrapper {
+    position: relative;
+    border: 2px solid blue;
+    width: calc(var(--pocketWidth)*3.8);
+    height: calc(var(--pocketHeight)*4);
+    margin: 100px auto;
+    box-sizing: border-box;
+}
