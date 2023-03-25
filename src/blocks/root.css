@@ -1,0 +1,10 @@
+:root{
+    --pocketWidth: calc(var(--pocketHeight)*1.65);
+    --pocketHeight: calc(19vh);
+    --letterWidthMini: calc(var(--pocketWidth)*2*0.8);
+    --letterWidth: calc(var(--pocketWidth)*2);
+    --letterHeightMini: calc(var(--pocketHeight)*2*0.8);
+    --letterHeight: calc(1.2*var(--pocketHeight));
+    --letterScaleW: 1;
+    --letterScaleH: 1;
+}

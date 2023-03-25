@@ -1,0 +1,25 @@
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    /* border: 1px solid rgb(107, 152, 120); */
+    width: 80vh;
+    padding-top: 80vh;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  .wrapper {
+    width: 80vw;
+    padding-top: 76vw;
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  .wrapper {}
+}
+
+@media (aspect-ratio: 1/1) {
+  .wrapper {}
+}
