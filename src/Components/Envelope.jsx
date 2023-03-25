@@ -9,7 +9,6 @@ function Envelope(props) {
             <div className="tringle-1"></div>
             <div className="tringle-2"></div>
             <div className="tringle-3" id="tr1"></div>
-            <p>envelope</p>
           </div>
           {props.children}
       </div>
