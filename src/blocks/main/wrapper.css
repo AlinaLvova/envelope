@@ -2,7 +2,7 @@
 .wrapper {
     margin: 0 auto;
     position: relative;
-    /* border: 1px solid rgb(107, 152, 120); */
+    border: 1px solid rgb(107, 152, 120);
     width: 80vh;
     padding-top: 80vh;
     box-sizing: border-box;
